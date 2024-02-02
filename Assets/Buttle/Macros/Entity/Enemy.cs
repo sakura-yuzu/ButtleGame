@@ -6,15 +6,10 @@ using UnityEngine;
 
 [CreateAssetMenu]
 [SerializeField]
-public class Enemy : ScriptableObject
+public class Enemy : CharacterBase
 {
     public int id;                                      //ID
-    public string enemyName;
     public Sprite image;
-    public int hp;
-    public int mp;
-    public int attackPower;
-    public int defensePower;
     // public int exp;
     // public List<Item> dropItem;
 

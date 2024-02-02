@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-class BackgroundManager : MonoBehaviour
+class BackgroundManager
 {
 	public Sprite selectedImage;
 	public Sprite deselectedImage;

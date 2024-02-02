@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: New Enemy
   m_EditorClassIdentifier: 
   id: 0
-  enemyName: 
+  enemyName: Enemy
   image: {fileID: 0}
-  hp: 0
+  hp: 200
   mp: 0
   attackPower: 0
   defensePower: 0
+  prefabAddress: Assets/Buttle/Prefab/Bird.prefab

@@ -6,17 +6,11 @@ using UnityEngine;
 
 [CreateAssetMenu]
 [SerializeField]
-public class Character : ScriptableObject
+public class Character : CharacterBase
 {
     public int id;                                      //ID
-    public string characterName;
     public Sprite image;
-    public int hp;
-    public int mp;
-    public int attackPower;
-    public int defensePower;
 
-	public Sprite selectedImage;
-	public Sprite deselectedImage;
+    public List<Skill> skills;
 
 }

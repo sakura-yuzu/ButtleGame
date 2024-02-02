@@ -80,3 +80,6 @@ crashlytics-build.properties
 # 外部パッケージ
 /Assets/TextMesh Pro/**/*
 /Assets/AddressableAssetsData/**/*
+/Assets/Plugins/UniTask/**/*
+
+/Assets/Buttle/Fonts/**/*
